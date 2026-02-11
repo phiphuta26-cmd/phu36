@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ท่องเที่ยวลำปาง</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ===== Header ===== -->
+<header>
+    <div class="container">
+        <div class="logo">
+            <h1>เที่ยวลำปาง</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#" class="active">หน้าแรก</a></li>
+                <li><a href="#">เกี่ยวกับ</a></li>
+                <li><a href="#">สถานที่ท่องเที่ยว</a></li>
+                <li><a href="#">ติดต่อ</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<!-- ===== Hero Section ===== -->
+<section class="hero">
+    <div class="hero-content">
+        <h2>ยินดีต้อนรับสู่ลำปาง</h2>
+        <p>เมืองรถม้า เสน่ห์เมืองเหนือ</p>
+        <a href="#" class="btn">เริ่มต้นการเดินทาง</a>
+    </div>
+</section>
+
+<!-- ===== About Section ===== -->
+<section class="about">
+    <div class="container">
+        <h2 class="section-title">เกี่ยวกับลำปาง</h2>
+
+        <div class="content-wrapper">
+            <div class="content-text">
+                <p>
+                    ลำปางเป็นจังหวัดที่เต็มไปด้วยเสน่ห์ทางวัฒนธรรม
+                    ธรรมชาติ และวิถีชีวิตแบบล้านนาแท้ ๆ
+                </p>
+            </div>
+            <div class="content-image">
+                <img src="images/lampang1.jpg" alt="จังหวัดลำปาง">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== Attractions Section ===== -->
+<section class="attractions">
+    <div class="container">
+        <h2 class="section-title">สถานที่ท่องเที่ยว</h2>
+
+        <div class="attraction-item">
+            <div class="attraction-image">
+                <img src="images/wat.jpg" alt="วัดพระธาตุลำปางหลวง">
+            </div>
+            <div class="attraction-content">
+                <h3>วัดพระธาตุลำปางหลวง</h3>
+                <p>
+                    วัดคู่บ้านคู่เมืองของจังหวัดลำปาง
+                    มีสถาปัตยกรรมล้านนาที่งดงาม
+                </p>
+                <a href="#" class="btn-link">อ่านเพิ่มเติม →</a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- ===== Contact Section ===== -->
+<section class="contact-section">
+    <div class="container contact-container">
+
+        <div class="contact-info">
+            <h3>ติดต่อเรา</h3>
+            <p>จังหวัดลำปาง</p>
+            <p>โทร: 012-345-6789</p>
+            <p>Email: info@lampang.com</p>
+        </div>
+
+        <form class="contact-form">
+            <div class="form-group">
+                <label>ชื่อ</label>
+                <input type="text" required>
+            </div>
+
+            <div class="form-group">
+                <label>อีเมล</label>
+                <input type="email" required>
+            </div>
+
+            <div class="form-group">
+                <label>ข้อความ</label>
+                <textarea></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn">ส่งข้อความ</button>
+        </form>
+
+    </div>
+</section>
+
+<!-- ===== Footer ===== -->
+<footer>
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>เกี่ยวกับเรา</h3>
+                <p>เว็บไซต์แนะนำการท่องเที่ยวจังหวัดลำปาง</p>
+            </div>
+
+            <div class="footer-section">
+                <h3>เมนู</h3>
+                <ul>
+                    <li><a href="#">หน้าแรก</a></li>
+                    <li><a href="#">สถานที่ท่องเที่ยว</a></li>
+                    <li><a href="#">ติดต่อ</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 เที่ยวลำปาง. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
